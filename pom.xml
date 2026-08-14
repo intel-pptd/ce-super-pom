@@ -9,7 +9,7 @@
 	<!-- IMPORTANT: groupId can be your orgId -->
 	<groupId>com.intel.sc</groupId>
 	<artifactId>ce-super-pom</artifactId>
-	<version>1.0.5</version>
+    <version>1.0.6</version>
 
 	<!-- MUST be pom -->
 	<packaging>pom</packaging>
@@ -36,21 +36,21 @@
 	<!-- ========================= -->
 	<dependencyManagement>
 		<dependencies>
-		<dependency>
-    <groupId>com.intel</groupId>
-    <artifactId>esb-domain-46</artifactId>
-    <version>1.0.0</version>
-    <classifier>mule-domain</classifier>
-    <scope>provided</scope>
-</dependency>
+		    <dependency>
+                <groupId>com.intel</groupId>
+                <artifactId>esb-domain-46</artifactId>
+                <version>1.0.0</version>
+                <classifier>mule-domain</classifier>
+                <scope>provided</scope>
+            </dependency>
 
-<dependency>
-    <groupId>com.intel</groupId>
-    <artifactId>esb-domain</artifactId>
-    <version>1.0.0</version>
-    <classifier>mule-domain</classifier>
-    <scope>provided</scope>
-</dependency>
+            <dependency>
+                <groupId>com.intel</groupId>
+                <artifactId>esb-domain</artifactId>
+                <version>1.0.0</version>
+                <classifier>mule-domain</classifier>
+                <scope>provided</scope>
+            </dependency>
 
 <dependency>
     <groupId>com.mulesoft.munit</groupId>
