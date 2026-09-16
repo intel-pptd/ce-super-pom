@@ -9,7 +9,7 @@
 	<!-- IMPORTANT: groupId can be your orgId -->
 	<groupId>com.intel.sc</groupId>
 	<artifactId>ce-super-pom</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
 
 	<!-- MUST be pom -->
 	<packaging>pom</packaging>
@@ -617,6 +617,12 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.10.1</version>
+				</plugin>
+				<plugin>
+					<groupId>com.mulesoft.munit.tools</groupId>
+					<artifactId>munit-maven-plugin</artifactId>
+					<version>3.7.4</version>
+					<extensions>true</extensions>
 				</plugin>
 				<plugin>
 					<groupId>org.mule.tools.maven</groupId>
